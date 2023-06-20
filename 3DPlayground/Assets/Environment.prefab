@@ -52,7 +52,7 @@ GameObject:
   - component: {fileID: 6551217173346783854}
   m_Layer: 0
   m_Name: Goal (1)
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16589,7 +16589,7 @@ GameObject:
   - component: {fileID: 8083692070909948688}
   m_Layer: 0
   m_Name: Goal
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16850,7 +16850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 20
+    VectorObservationSize: 64
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -16894,11 +16894,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SensorName: RayPerceptionSensor
-  m_DetectableTags: []
-  m_RaysPerDirection: 3
+  m_DetectableTags:
+  - Goal
+  - Goal
+  m_RaysPerDirection: 9
   m_MaxRayDegrees: 180
   m_SphereCastRadius: 1
-  m_RayLength: 20
+  m_RayLength: 70
   m_RayLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291

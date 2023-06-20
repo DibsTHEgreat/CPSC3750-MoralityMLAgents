@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1687247454",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Divya\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\mlagents-learn --run-id=Test29",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cu118",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1687247516"
+    },
+    "total": 61.95874739999999,
+    "count": 1,
+    "self": 0.005165899999994394,
+    "children": {
+        "run_training.setup": {
+            "total": 0.02537659999999997,
+            "count": 1,
+            "self": 0.02537659999999997
+        },
+        "TrainerController.start_learning": {
+            "total": 61.9282049,
+            "count": 1,
+            "self": 0.0001756999999997788,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.927997899999994,
+                    "count": 1,
+                    "self": 61.927997899999994
+                },
+                "TrainerController._save_models": {
+                    "total": 3.1300000003398054e-05,
+                    "count": 1,
+                    "self": 3.1300000003398054e-05
+                }
+            }
+        }
+    }
+}
