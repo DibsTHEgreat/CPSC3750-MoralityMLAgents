@@ -16,9 +16,6 @@ public class MoveToGoalAgent : Agent
 
     [SerializeField] private float rayDistance = 10f;
 
-    private bool isTarget1Reached = false;
-    private bool isTarget2Reached = false;
-
     // Store the initial position and rotation of the goals
     private Vector3 initialTarget1Position;
     private Quaternion initialTarget1Rotation;
@@ -33,8 +30,6 @@ public class MoveToGoalAgent : Agent
         targetTransform2.localPosition = new Vector3(Random.Range(45f, -7f), 2.91f, Random.Range(-37f, -11f));
 
         foundGoals.Clear();
-        isTarget1Reached = false;
-        isTarget2Reached = false;
 
         // Store the initial position and rotation of the goals
         initialTarget1Position = targetTransform.localPosition;
