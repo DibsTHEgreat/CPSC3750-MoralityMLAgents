@@ -23,4 +23,8 @@ To Run our project and see our work please follow this guide:
 
 2. Install Unity Project
 
-3. Navigate to the: 3DPlayground folder --> Assets folder --> Scenes folder --> select Sample Scene
+3. Navigate to the: 3DPlayground folder --> Assets folder --> Scenes folder --> select FirstInstance
+
+4. By hitting the play button you will be seeing our trained NN model to locate goals via ray-casted sensors
+
+5. By selecting the other scene labeled SampleScene, you will our most up-to-date version of this code where our agent is locating multiple goals
