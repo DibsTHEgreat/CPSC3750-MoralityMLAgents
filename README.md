@@ -20,3 +20,7 @@ Make sure to credit our project if you are using our information elsewhere. Than
 To Run our project and see our work please follow this guide:
 
 1. Please install the latest version of Unity.
+
+2. Install Unity Project
+
+3. Navigate to the: 3DPlayground folder --> Assets folder --> Scenes folder --> select Sample Scene
